@@ -1,0 +1,24 @@
+{
+  "name": "angular-sample",
+  "version": "0.0.1",
+  "description": "A sample Angular 2 project",
+  "main": "app.js",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.34",
+    "es6-shim": "^0.33.0",
+    "systemjs": "^0.18.9",
+    "reflect-metadata": "^0.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "tsd": "^0.6.3",
+    "typescript": "^1.5.3"
+  },
+  "scripts": {
+    "postinstall": "tsd install",
+    "watch": "tsc --watch",
+    "server": "browser-sync start --server --files \"app.js, index.html\""
+  },
+  "author": "John Lindquist",
+  "license": "ISC"
+}
