@@ -1,4 +1,3 @@
-//SystemJS Config
 //SystemJS Builder support for bundling TypeScript projects is coming soon:
 // https://github.com/systemjs/builder/milestones/TypeScript%20Support
 System.config({
