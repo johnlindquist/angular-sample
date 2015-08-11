@@ -1,4 +1,4 @@
-A Sample Angular 2 Project
+# A Sample Angular 2 Project
 
 Install dependencies: `npm install`
 
@@ -7,7 +7,7 @@ Watch TypeScript file changes: `npm run watch`
 Start a server: `npm run server`
 
 ---
-Description of files:
+## Description of files:
 `config.js`: Configures loading paths for SystemJS.
 
 `tsconfig.json`: Describes TypeScript's options so you don't have to type them out in the command line
